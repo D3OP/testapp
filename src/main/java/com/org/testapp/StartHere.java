@@ -47,7 +47,8 @@ public class StartHere {
 		logger.info("END..........CD Regression Test........Application");
 		
 		
-		
+		logger.warning("   0   ");
+		//System.exit(1);
 		
         
 	}
