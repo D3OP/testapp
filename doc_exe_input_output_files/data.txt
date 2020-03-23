@@ -1,0 +1,4 @@
+{"restaurantName":"MCDONALDS","name":"Sandwich-207","description":"yummy","rating":6,"cityName":"BOSTON"}
+/v2/menuitems
+http
+title

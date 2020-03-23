@@ -1,0 +1,60 @@
+Mar 24, 2020 12:39:26 AM com.org.testapp.ReadProperty getProperties
+INFO: Reading data from external file : data.txt
+Mar 24, 2020 12:39:26 AM com.org.testapp.ReadProperty getProperties
+INFO: Parameter=
+Mar 24, 2020 12:39:26 AM com.org.testapp.ReadProperty getProperties
+INFO: {"restaurantName":"MCDONALDS","name":"Sandwich-207","description":"yummy","rating":6,"cityName":"BOSTON"}
+Mar 24, 2020 12:39:26 AM com.org.testapp.ReadProperty getProperties
+INFO: /v2/menuitems
+Mar 24, 2020 12:39:26 AM com.org.testapp.ReadProperty getProperties
+INFO: http
+Mar 24, 2020 12:39:26 AM com.org.testapp.ReadProperty getProperties
+INFO: title
+Mar 24, 2020 12:39:26 AM com.org.testapp.StartHere main
+INFO: Start ..........CD Regression Test........Application
+
+Mar 24, 2020 12:39:26 AM com.org.testapp.StartHere main
+INFO: Starting .................. testUI
+Mar 24, 2020 12:39:26 AM com.org.testapp.UITest TestUI
+INFO: UI ip entered = localhost
+Mar 24, 2020 12:39:26 AM com.org.testapp.UITest TestUI
+INFO: UI port entered = 4200
+Mar 24, 2020 12:39:26 AM com.org.testapp.UITest TestUI
+INFO:  ************ Server is up *************** 
+Mar 24, 2020 12:39:26 AM com.org.testapp.UITest TestUI
+WARNING:    --- PASS ---   
+Mar 24, 2020 12:39:26 AM com.org.testapp.UITest TestUI
+INFO:  ************ End  ***************
+Mar 24, 2020 12:39:26 AM com.org.testapp.StartHere main
+INFO: END ......................  testUI
+
+Mar 24, 2020 12:39:26 AM com.org.testapp.StartHere main
+INFO: Starting .................. POSTRequest
+Mar 24, 2020 12:39:26 AM com.org.testapp.APTTest POSTRequest
+INFO: API ip entered = localhost
+Mar 24, 2020 12:39:26 AM com.org.testapp.APTTest POSTRequest
+INFO: API port entered = 8080
+Mar 24, 2020 12:39:26 AM com.org.testapp.APTTest POSTRequest
+INFO: {"restaurantName":"MCDONALDS","name":"Sandwich-207","description":"yummy","rating":6,"cityName":"BOSTON"}
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest POSTRequest
+WARNING: created json={"id":"5e7909667d62cb13545c9619","restaurantName":"MCDONALDS","name":"Sandwich-207","description":"yummy","rating":6,"cityName":"BOSTON"}
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest POSTRequest
+WARNING:    --- PASS ---   
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest POSTRequest
+INFO: END ...................... POSTRequest
+
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest POSTRequest
+INFO: Starting .................. MyGETRequest
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest MyGETRequest
+INFO: json=[{"id":"5e7909667d62cb13545c9619","restaurantName":"MCDONALDS","name":"Sandwich-207","description":"yummy","rating":6,"cityName":"BOSTON"}]
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest MyGETRequest
+INFO: ********** Matched ***************{"id":"5e7909667d62cb13545c9619","restaurantName":"MCDONALDS","name":"Sandwich-207","description":"yummy","rating":6,"cityName":"BOSTON"}
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest MyGETRequest
+WARNING:    --- PASS ---   
+Mar 24, 2020 12:39:27 AM com.org.testapp.APTTest POSTRequest
+INFO: END ...................... MyGETRequest
+
+Mar 24, 2020 12:39:27 AM com.org.testapp.StartHere main
+INFO: END..........CD Regression Test........Application
+Mar 24, 2020 12:39:27 AM com.org.testapp.StartHere main
+WARNING:    0   
