@@ -42,6 +42,7 @@ public class APTTest {
 				
 				while ((readLine = in.readLine()) != null) {				
 					logger.info("json=" + readLine);
+					logger.warning("   --- PASS ---   ");
 		
 					if (readLine.contains(newJson))
 					{
@@ -74,7 +75,7 @@ public class APTTest {
 			logger.info("API ip entered = "+ url);
 		 	logger.info("API port entered = "+ port);
 			
-			String getAPIUEndpoint = "/v2/menuitems";
+			String getAPIUEndpoint = parameters[1];
 			getAPIUEndpoint = "http://"+url+":"+port+getAPIUEndpoint;
 			//logger.info(POST_PARAMS);
 			logger.info(json);
@@ -96,7 +97,7 @@ public class APTTest {
 			// Reading the response
 			BufferedReader in = new BufferedReader(new InputStreamReader(postConnection.getInputStream()));
 			if ((readLine = in.readLine()) != null) {
-				logger.warning("created json="+readLine);
+				//logger.warning("created json="+readLine);
 			}
 			
 			if(readLine.length()>10)
