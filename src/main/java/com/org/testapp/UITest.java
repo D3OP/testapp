@@ -23,7 +23,8 @@ public class UITest {
 		        String inputLine;
 		        while ((inputLine = in.readLine()) != null)
 		        {
-		        	if(inputLine.contains(parameters[3])){
+		        	logger.info("UI search parameter = "+ parameters[3]);
+				if(inputLine.contains(parameters[3])){
 		        	//if(inputLine.contains("title")){
 		        		//if(inputLine.contains("Food for Thought")){
 		        		serverUpStatus = true;
@@ -34,7 +35,9 @@ public class UITest {
 		        }
 		        if(!serverUpStatus)
 		        {
-		        	logger.info(" ************ Server is down *************** ");
+		        	logger.warning(" ************ Server is down *************** ");
+					logger.warning("   --- FAIL ---   ");
+					System.exit(1);
 		        }
 		        in.close();
 		        
@@ -44,7 +47,6 @@ public class UITest {
 				{
 					logger.info(e.toString());
 					logger.warning("   --- FAIL ---   ");
-					logger.warning("   1   ");
 					System.exit(1);
 				}
 	}
